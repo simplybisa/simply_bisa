@@ -1,50 +1,64 @@
 body {
-    background-color: #444444;
+  background-color: #444444;
 }
 
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #FFFFFF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #header {
-    width: 100%;
-    height: 200px;
-    background-color: #FFFFFF;
-    float: left;
-    border: 3px dotted #FF0000;
-    position: fixed;
+  width: 100%;
+  height: 200px;
+  background-color: #FFFFFF;
+  color: #000000;
+  float: left;
+  border: 3px dotted #FF0000;
+  position: fixed;
+  display: grid;
+  place-items: center;
 }
 
 #main {
-    width: 59%;
-    height: 500px;
-    margin-top: 205px;
-    font-size: 50px;
-    float: left;
+  width: 59%;
+  height: 1500px;
+  color: #FFFFFF;
+  margin-top: 205px;
+  font-size: 50px;
+  float: left;
+  display: grid;
+  place-items: center;
 }
 
 #left {
-    width: 20%;
-    height: 500px;
-    margin-top: 205px;
-    float: left;
-    border-left: 3px dotted #FF0000;
-    border-right: 3px dotted #FF0000;
+  width: 20%;
+  height: 1500px;
+  color: #FFFFFF;
+  margin-top: 205px;
+  float: left;
+  border-left: 3px dotted #FF0000;
+  border-right: 3px dotted #FF0000;
+  display: grid;
+  place-items: center;
 }
 
 #right {
-    width: 20%;
-    height: 500px;
-    margin-top: 205px;
-    float: left;
-    border-left: 3px dotted #FF0000;
-    border-right: 3px dotted #FF0000;
+  width: 20%;
+  height: 1500px;
+  color: #FFFFFF;
+  margin-top: 205px;
+  float: left;
+  border-left: 3px dotted #FF0000;
+  border-right: 3px dotted #FF0000;
+  display: grid;
+  place-items: center;
 }
 
 #footer {
-    width: 100%;
-    height: 200px;
-    float: left;
-    border: 3px dotted #FF0000;
+  width: 100%;
+  height: 200px;
+  color: #FFFFFF;
+  float: left;
+  border: 3px dotted #FF0000;
+  display: grid;
+  place-items: center;
 }
